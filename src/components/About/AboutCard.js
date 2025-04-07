@@ -8,29 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Kausik Challapalli</span> from <span className="purple">Guntur, India.</span>
+            Hi Everyone, I am <span className="purple">Kausik Challapalli</span> from <span className="purple">Guntur, India</span>.
             <br />
-            I am currently pursuing my Bachelor of Technology in Computer Science Engineering, specializing in AI and Machine Learning.
+            I have completed my Bachelor of Technology in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning from <span className="purple">SRM University, AP</span>.
             <br />
-            My journey in tech has been enriched with hands-on experience in developing AI-driven solutions and participating in innovative research projects.
+            Currently, I am preparing to pursue my Master's in Data Science, driven by a passion for uncovering insights from data and building intelligent systems.
             <br />
             <br />
-            Beyond coding, here are some of my passions:
+            Outside of academics and coding, here are a few things that truly excite me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Exploring Data Science and Machine Learning
+              <ImPointRight /> Diving deep into Neural Networks and Advanced Deep Learning architectures
             </li>
             <li className="about-activity">
-              <ImPointRight /> Contributing to Open Source Projects
+              <ImPointRight /> Contributing to state-of-the-art research in AI and Data Science
             </li>
             <li className="about-activity">
-              <ImPointRight /> Engaging in Tech Communities and Workshops
+              <ImPointRight /> Collaborating in interdisciplinary hackathons and global tech summits
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-          "Aim to develop cutting-edge solutions that create a meaningful impact!"{" "}
+            "Adopt. Innovate. Conquer."
           </p>
           <footer className="blockquote-footer">Kausik</footer>
         </blockquote>

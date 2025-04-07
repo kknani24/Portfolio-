@@ -1,37 +1,15 @@
 .logo-container {
-    display: inline-block;
-    padding: 10px; /* Adjust as needed */
-    border-radius: 10px; /* Rounded corners */
-    background: transparent; /* No background */
-    animation: glow-fade 2s infinite; /* Continuous animation */
-  }
-  
-  @keyframes glow-fade {
-    0% {
-      box-shadow: 0 0 15px rgba(255, 0, 0, 1); /* Brighter Red */
-      opacity: 1; /* Fully visible */
-    }
-    25% {
-      box-shadow: 0 0 15px rgba(0, 255, 0, 1); /* Brighter Green */
-    }
-    50% {
-      box-shadow: 0 0 15px rgba(0, 0, 255, 1); /* Brighter Blue */
-      opacity: 1; /* Fully visible */
-    }
-    75% {
-      box-shadow: 0 0 15px rgba(255, 255, 0, 1); /* Brighter Yellow */
-    }
-    100% {
-      box-shadow: 0 0 15px rgba(255, 0, 255, 1); /* Brighter Magenta */
-      opacity: 0; /* Fully transparent */
-    }
-  }
-  
-  .sticky {
-    background-color: #fff; /* Change as needed */
-  }
-  
-  .navbar {
-    background-color: transparent; /* Change as needed */
-  }
-  
+  display: inline-block;
+  padding: 10px; /* Adjust as needed */
+  border-radius: 10px; /* Rounded corners */
+  background: transparent; /* No background */
+  box-shadow: 0 0 15px rgb(144, 0, 255); /* Constant glow */
+}
+
+.sticky {
+  background-color: #fff; /* Change as needed */
+}
+
+.navbar {
+  background-color: transparent; /* Change as needed */
+}

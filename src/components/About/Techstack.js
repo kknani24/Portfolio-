@@ -39,7 +39,6 @@ function Techstack() {
     { name: "R", icon: <SiR style={{ color: "#276DC3" }} /> },
     { name: "React", icon: <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" style={{ width: '50%' }} /> },
     { name: "Django", icon: <SiDjango style={{ color: "#092E20" }} /> },
-    { name: "Node.js", icon: <DiNodejs style={{ color: "#339933" }} /> },
     { name: "Flask", icon: <SiFlask style={{ color: "#FFFFFF" }} /> },
     { name: "PostgreSQL", icon: <SiPostgresql style={{ color: "#336791" }} /> },
     { name: "MySQL", icon: <SiMysql style={{ color: "#4479A1" }} /> },
@@ -59,9 +58,7 @@ function Techstack() {
     { name: "MATLAB", icon: <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Matlab_Vibes.gif" alt="MATLAB" style={{ width: '50%' }} /> },
     { name: "Power BI", icon: <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style={{ width: '50%' }} /> },
     { name: "Adobe", icon: <SiAdobe style={{ color: "#FF0000" }} /> },
-    { name: "Canva", icon: <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Canva_Logo.svg" alt="Canva" style={{ width: '50%' }} /> },
-    { name: "Figma", icon: <SiFigma style={{ color: "#F24E1E" }} /> },
-    { name: "Capcut", icon: <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Capcut-logo.svg" alt="Capcut" style={{ width: '50%' }} /> }, // Changed size to 50%
+    { name: "Figma", icon: <SiFigma style={{ color: "#F24E1E" }} /> }, // Changed size to 50%
   ];
 
   return (
